@@ -1,0 +1,103 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+header {
+    background-color: #f4a261;
+    padding: 1em;
+    text-align: center;
+}
+
+header .logo {
+    max-width: 150px;
+}
+
+/* Main Section */
+main {
+    padding: 2em;
+    text-align: center;
+}
+
+/* Form Styles */
+form {
+    margin-bottom: 1em;
+}
+
+/* Dog Gallery Section */
+h1 {
+    margin-top: 20px;
+}
+
+#fetch-dogs, #view-breeds {
+    margin: 20px 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#dog-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px;
+}
+
+#dog-gallery img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Image Result Section */
+#result img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0.5em auto;
+}
+
+/* Footer */
+footer {
+    background-color: #36819e;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+/* Estilo para los botones */
+.btn {
+    background-color: #f4a261; /* Color de fondo */
+    border: none; /* Sin borde */
+    padding: 10px 20px; /* Espaciado interno */
+    font-size: 16px; /* Tamaño de la fuente */
+    font-weight: bold; /* Negrita */
+    text-align: center; /* Centrado de texto */
+    text-decoration: none; /* Eliminar subrayado */
+    color: white; /* Color de texto */
+    border-radius: 8px; /* Bordes redondeados */
+    cursor: pointer; /* Manito al pasar el ratón */
+    transition: all 0.3s ease; /* Transición suave */
+}
+
+.btn a {
+    color: white; /* Color del texto dentro del enlace */
+    text-decoration: none; /* Sin subrayado */
+}
+
+/* Efecto al pasar el ratón */
+.btn:hover {
+    background-color: #e76f51; /* Cambio de color de fondo */
+    transform: scale(1.1); /* Aumenta el tamaño ligeramente */
+}
+
+/* Efecto al hacer clic */
+.btn:active {
+    background-color: #264653; /* Cambio de color al hacer clic */
+    transform: scale(0.9); /* Reduce el tamaño ligeramente */
+}

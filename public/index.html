@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dog API Explorer</title>
+    <link rel="stylesheet" href="./css/estylos.css" />
+  </head>
+  <body>
+    <header>
+      <img src="imagenes/logo_perros.jpg" alt="Logo" class="logo" />
+      <h1>Explora las Razas de Perros que tememos</h1>
+      <nav>
+        <button class="btn"><a href="index.html">Inicio</a></button>
+        <button class="btn"><a href="#" id="aboutUs">Sobre nosotros</a></button>
+      </nav>
+    </header>
+
+    <main>
+      <h2>Selecciona una raza para ver imágenes</h2>
+      <form id="apiForm">
+        <label for="breed">Raza de perro:</label>
+        <select id="breed" required></select>
+        <button class="btn" type="submit">Consultar</button>
+      </form>
+
+      <button class="btn" id="fetchBase">Ver razas disponibles</button>
+      <div id="result"></div>
+
+      <!-- Botones para imprimir y descargar -->
+      <div id="actionButtons" style="display: none; margin-top: 1em">
+        <button class="btn" id="printResults">Imprimir resultados</button>
+        <button class="btn" id="downloadResults">Descargar resultados</button>
+      </div>
+    </main>
+
+    <footer>
+      <p>Amumno: Mussi Sebastian</i></p><br />Entrega de proyecto: Diseño Web</p>
+    </footer>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
